@@ -8,10 +8,10 @@ import {Unity, useUnityContext } from 'react-unity-webgl'
 function App() {
 
   const { unityProvider } = useUnityContext({
-    loaderUrl: "assets/Build/Build/Build1.loader.js",
-    dataUrl: "assets/Build/Build/Build1.data.gz",
-    frameworkUrl: "assets/Build/Build/Build1.framework.js.gz",
-    codeUrl: "assets/Build/Build/Build1.wasm.gz",
+    loaderUrl: "assets/Build/Build1.loader.js",
+    dataUrl: "assets/Build/Build1.data.gz",
+    frameworkUrl: "assets/Build/Build1.framework.js.gz",
+    codeUrl: "assets/Build/Build1.wasm.gz",
   });
 
   return (
